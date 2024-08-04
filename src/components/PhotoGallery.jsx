@@ -36,6 +36,19 @@ const PhotoGallery = () => {
           <IoIosHeart className="text-2xl text-red-500 cursor-pointer hover:scale-110 transition-all ease-liner duration-300" />
         }
         />
+        <ImageCard
+          title="The river"
+          author="Developer"
+          img="https://images.pexels.com/photos/269583/pexels-photo-269583.jpeg?auto=compress&cs=tinysrgb&w=600"
+          price={20}
+          icon1={
+            <FaShoppingCart className="text-2xl text-black cursor-pointer hover:scale-110 transition-all ease-liner duration-300" />
+          }
+        icon2=
+        {
+          <IoIosHeart className="text-2xl text-red-500 cursor-pointer hover:scale-110 transition-all ease-liner duration-300" />
+        }
+        />
         
       </div>
     </div>
