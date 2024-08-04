@@ -5,19 +5,14 @@ import Login from "./pages/Login"
 import SellerDashboard from "./pages/SellerDashboard";
 import BuyerDashboard from "./pages/BuyerDashboard";
 import Navbar from './components/Navbar';
+import GsapTransition from './components/GsapTransition';
 function App() {
 
   return (
     <>
       <BrowserRouter>
       <Navbar/>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/login' element={<Login/>}/>
-          <Route path='/signup' element={<Signup/>}/>
-          <Route path='/seller/profile' element={<SellerDashboard/>}/>
-          <Route path='/buyer/profile' element={<BuyerDashboard/>}/>
-        </Routes>
+       <GsapTransition/>
       </BrowserRouter>
     </>
   )
